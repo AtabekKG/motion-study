@@ -1556,6 +1556,18 @@
         }
       }
     }
+
+    // Modal
+    #social-modal {
+      .social-modal {
+        padding: 26px;
+
+        &_icons {
+          margin: 30px 0 50px 0;
+        }
+
+      }
+    }
   }
 }
 
@@ -1731,6 +1743,22 @@
           }
         }
       }
+    }
+  }
+
+  // Modal
+  #social-modal {
+    .social-modal {
+      padding: 26px;
+
+      &_icons {
+        display: grid !important;
+        grid-template-columns: 50px 50px;
+        justify-content: center;
+        gap: 25px;
+        margin: 30px 0 50px 0;
+      }
+
     }
   }
 }
